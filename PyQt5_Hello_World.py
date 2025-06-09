@@ -11,13 +11,13 @@ class MainWindow(qtw.QWidget):
     def __init__(self):
         super().__init__()
         #Add a Title for your Widget
-        self.setWindowTitle("Hello World!")
+        self.setWindowTitle("Hello World")
 
         #set Vertical Layout
         self.setLayout(qtw.QVBoxLayout())
 
         #create a label
-        my_label = qtw.QLabel("Hello World!")
+        my_label = qtw.QLabel("Hello World")
         self.layout().addWidget(my_label)
 
         self.show()
