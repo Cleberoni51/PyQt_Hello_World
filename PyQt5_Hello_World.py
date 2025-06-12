@@ -12,7 +12,7 @@ class MainWindow(qtw.QWidget):
         super().__init__()
         #Add a Title for your Widget
         self.setWindowTitle("Hello World")
-
+        
         #set Vertical Layout
         self.setLayout(qtw.QVBoxLayout())
 
